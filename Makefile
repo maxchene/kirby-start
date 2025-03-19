@@ -1,10 +1,14 @@
 .PHONY: help dev
-dc := docker compose
+user := $(shell id -u)
+group := $(shell id -g)
+dc := USER_ID=$(user) GROUP_ID=$(group) docker compose
+stop := $(dc) stop
 de := docker compose exec
 dr := $(dc) run --rm
 sy := $(de) php bin/console
 bun := $(dr) bun
 php := $(dr) php
+composer := $(dr) composer
 
 .DEFAULT_GOAL := help
 help: ## Affiche cette aide
@@ -17,15 +21,18 @@ dev: node_modules/time vendor/autoload.php ## Run dev servers : php & vite
 # DEPENDENCIES
 
 composer.lock:
-	$(php) composer install
+	$(composer) composer install --ignore-platform-reqs
+	$(stop) composer
 
 vendor/autoload.php: composer.lock
-	$(php) composer install
+	$(composer) composer install --ignore-platform-reqs
 	touch vendor/autoload.php
+	$(stop) composer
 
 node_modules/time: bun.lockb
 	$(bun) bun install
 	touch node_modules/time
+	docker compose
 
 bun.lockb:
 	$(bun) bun install
