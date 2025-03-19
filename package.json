@@ -1,8 +1,10 @@
 {
-  "name": "legrain86.fr",
-  "module": "index.ts",
+  "name": "kirby-start",
   "type": "module",
   "private": true,
+  "scripts": {
+    "dev": "bun vite"
+  },
   "devDependencies": {
     "@types/bun": "latest",
     "sass": "^1.86.0",
