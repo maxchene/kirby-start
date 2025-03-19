@@ -3,12 +3,11 @@ services:
     user: "${USER_ID}:${GROUP_ID}"
     image: php:8.2-cli
     ports:
-      - 8000:80
       - 8000:8000
     working_dir: /app
     volumes:
       - .:/app
-    command: php -S localhost:8000 kirby/router.php
+    command: php -S 0.0.0.0:8000 kirby/router.php
   
   bun:
     user: "${USER_ID}:${GROUP_ID}"

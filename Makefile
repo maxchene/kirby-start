@@ -1,4 +1,4 @@
-.PHONY: help dev
+.PHONY: help dev stop
 user := $(shell id -u)
 group := $(shell id -g)
 dc := USER_ID=$(user) GROUP_ID=$(group) docker compose
@@ -17,6 +17,8 @@ help: ## Affiche cette aide
 dev: node_modules/time vendor/autoload.php ## Run dev servers : php & vite
 	$(dc) up
 
+stop: ## Stop docker containers
+	$(dc) down
 
 # DEPENDENCIES
 
