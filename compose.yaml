@@ -1,0 +1,26 @@
+services:
+  php:
+    image: php:8.2-cli
+    ports:
+      - 8000:80
+    working_dir: /app
+    volumes:
+      - .:/app
+    command: php -S localhost:8000 kirby/router.php
+  
+  bun:
+    image: oven/bun
+    command: bun run dev
+    working_dir: /app
+    volumes:
+      - .:/app
+    ports:
+      - 3000:3000
+  
+  composer:
+    image: composer:lts
+    working_dir: /app
+    volumes:
+      - .:/app
+    command: install --ignore-platform-reqs
+    

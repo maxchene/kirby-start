@@ -1,0 +1,14 @@
+{
+  "name": "legrain86.fr",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest",
+    "sass": "^1.86.0",
+    "vite": "^6.2.2"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
