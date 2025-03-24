@@ -41,3 +41,5 @@ public
 site/accounts
 site/cache
 site/sessions
+/media/*
+!/media/index.html
