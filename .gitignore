@@ -37,3 +37,7 @@ report.[0-9]_.[0-9]_.[0-9]_.[0-9]_.json
 vendor
 kirby
 public
+
+site/accounts
+site/cache
+site/sessions
