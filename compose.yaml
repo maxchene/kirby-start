@@ -4,6 +4,8 @@ services:
     image: php:8.2-cli
     ports:
       - 8000:8000
+    environment:
+      APP_ENV: dev
     working_dir: /app
     volumes:
       - .:/app
@@ -11,7 +13,7 @@ services:
   
   bun:
     user: "${USER_ID}:${GROUP_ID}"
-    image: oven/bun
+    image: oven/bun:slim
     command: bun run dev
     working_dir: /app
     volumes:
