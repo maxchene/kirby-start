@@ -1,25 +1,32 @@
 {
-    "name": "maxchene/kirby-start",
-    "description": "Start a kirby project with modern tooling: docker, bun, vite",
-    "require": {
-        "php": "~8.1.0 || ~8.2.0 || ~8.3.0 || ~8.4.0",
-        "getkirby/cms": "5.0.0-beta.4",
-        "getkirby/cli": "^1.6"
-      },
-      "config": {
-        "allow-plugins": {
-          "getkirby/composer-installer": true
-        },
-        "optimize-autoloader": true
-      },
-      "scripts": {
-        "start": [
-          "Composer\\Config::disableProcessTimeout",
-          "@php -S localhost:8000 kirby/router.php"
-        ]
-      },
-      "require-dev": {
-        "symfony/var-dumper": "^7.2"
-      }
-
+  "name": "maxchene/kirby-start",
+  "description": "Start a kirby project with modern tooling: docker, bun, vite",
+  "keywords": [
+    "kirby",
+    "Kirby cms",
+    "docker",
+    "vite",
+    "bun",
+    "ligthningcss"
+  ],
+  "require": {
+    "php": "~8.1.0 || ~8.2.0 || ~8.3.0 || ~8.4.0",
+    "getkirby/cms": "5.0.0-beta.4",
+    "getkirby/cli": "^1.6"
+  },
+  "config": {
+    "allow-plugins": {
+      "getkirby/composer-installer": true
+    },
+    "optimize-autoloader": true
+  },
+  "scripts": {
+    "start": [
+      "Composer\\Config::disableProcessTimeout",
+      "@php -S localhost:8000 kirby/router.php"
+    ]
+  },
+  "require-dev": {
+    "symfony/var-dumper": "^7.2"
+  }
 }
