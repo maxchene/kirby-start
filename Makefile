@@ -3,9 +3,8 @@ user := $(shell id -u)
 group := $(shell id -g)
 dc := USER_ID=$(user) GROUP_ID=$(group) docker compose
 stop := $(dc) stop
-de := docker compose exec
+de := $(dc) exec
 dr := $(dc) run --rm
-sy := $(de) php bin/console
 bun := $(dr) bun
 php := $(dr) php
 composer := $(dr) composer
