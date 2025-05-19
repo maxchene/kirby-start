@@ -1,7 +1,9 @@
 services:
   php:
     user: "${USER_ID}:${GROUP_ID}"
-    image: php:8.2-cli
+    build:
+      context: .
+      dockerfile: Dockerfile
     ports:
       - 8000:8000
     environment:
