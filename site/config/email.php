@@ -1,0 +1,7 @@
+<?php
+/**
+ * Email config
+ */
+return [
+
+];

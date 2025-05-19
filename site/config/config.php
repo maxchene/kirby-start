@@ -2,6 +2,6 @@
 
 return [
     'url' => 'http://localhost:8000',
-    'panel.install' => true,
-    'thumbs' => require_once('thumbs.php')
+    'thumbs' => require_once('thumbs.php'),
+    'email' => require_once('email.php'),
 ];
