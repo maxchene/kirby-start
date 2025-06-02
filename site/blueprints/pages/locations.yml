@@ -1,0 +1,20 @@
+title: Catalogue des locations
+
+sections:
+
+  drafts:
+    label: Brouillons
+    type: pages
+    status: draft
+    templates: location
+
+  published:
+    label: Locations publiées
+    type: pages
+    search: true
+    status: listed
+    layout: cardlets
+    templates: location
+    image:
+      query: page.cover
+      cover: true

@@ -3,4 +3,5 @@
  * For better performance put
  * page specific javascript into js/templates/page-template.js
  */
-console.log('Hello Kirby CMS');
+console.log('coucou');
+import baguetteBox from 'baguettebox.js';

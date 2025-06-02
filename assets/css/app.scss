@@ -1,3 +1,9 @@
-body {
-  background: grey;
-}
+// Config
+@forward "settings";
+
+// Theming
+@use "theme/theme";
+
+// Layout
+@use "layout/document"; // html
+@use "content/typo"; // html

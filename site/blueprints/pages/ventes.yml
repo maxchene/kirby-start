@@ -1,0 +1,29 @@
+Title: Catalogue des ventes
+
+
+columns:
+  left:
+    width: 2/3
+    sections:
+      published:
+        label: Ventes en ligne
+        type: pages
+        search: true
+        status: listed
+        layout: cardlets
+        info: "{{ page.reference }}"
+        templates: vente
+        image:
+          query: page.cover
+          cover: true
+
+  right:
+    width: 1/3
+    sections:
+      drafts:
+        label: Brouillons
+        type: pages
+        status: draft
+        templates: vente
+
+

@@ -1,5 +1,47 @@
 title: Site
 
-sections:
+tabs:
   pages:
-    type: pages
+    label: Pages
+    sections:
+      pages:
+        type: pages
+  config:
+    label: Configuration
+    fields:
+      types:
+        type: structure
+        label: Types de biens
+        fields:
+          name:
+            label: Nom
+            type: text
+      zones:
+        type: structure
+        label: Quartiers
+        fields:
+          name:
+            label: Nom
+            type: text
+      budgets:
+        type: structure
+        label: Budgets
+        fields:
+          start:
+            label: Montant minimum
+            type: number
+          end:
+            label: Montant maximum
+            type: number
+      menu:
+        type: structure
+        fields:
+          name:
+            type: text
+            label: Texte du menu
+          page:
+            type: pages
+            min: 1
+            max: 1
+
+

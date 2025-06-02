@@ -1,0 +1,112 @@
+Title: Maison Poitiers plateau
+
+----
+
+Description:
+
+Maison de charme rénovée – Neuville-de-Poitou
+
+À 20 min de Poitiers, découvrez cette superbe bâtisse en pierre de 216 m² environ, idéalement située à Neuville-de-Poitou, proche du Centre et de toutes les commodités. Entièrement rénovée avec goût, elle conjugue authenticité et confort moderne : murs en moellons, poutres apparentes, belles hauteurs sous plafond, parquets restaurés et matériaux de qualité.
+
+La maison comprend au rez-de-chaussée : Entrée, wc, une chambre (avec possibilité de création d'une salle d'eau), salon, cuisine et arrière cuisine, ensemble séjour-salle à manger (42 m2 environ), dégagement, une pièce avec placard. Chaufferie. Au 1er étage : Palier, trois chambres, wc avec lave mains, un espace salle d'eau à réaliser. Un bureau de 21 m2 environ au dessus de la salle à manger desservi par un escalier indépendant.
+
+8 pièces sur 2 niveaux
+
+Grande salle à manger avec ancien pressoir en pierre
+
+Pompe à chaleur neuve (2023)
+
+Double vitrage, isolation renforcée
+
+Jardin clos avec terrasse, parfait pour les beaux jour
+
+Vastes dépendances aménageable.
+
+Un bien rare alliant cachet et performance énergétique. À visiter sans tarder !
+
+----
+
+Reference: DXR56
+
+----
+
+Agent: - user://mc9EXlPG
+
+----
+
+Type: Maison
+
+----
+
+Secteur: Poitiers Centre
+
+----
+
+Exclu: true
+
+----
+
+Vitrine: true
+
+----
+
+Offmarket: false
+
+----
+
+Showpreciseposition: true
+
+----
+
+Position:
+
+lat: 46.5598481
+lon: 0.3736475
+city: Poitiers
+region: Nouvelle-Aquitaine
+country: France
+countryCode: fr
+postcode: "86000"
+address: Rue Victor Schoelcher
+osm: 210453215
+
+----
+
+Notes: <p>ici je peux prendre</p><p>des notes</p><p></p>
+
+----
+
+Proprio: 
+
+----
+
+Proprio-adresse: 
+
+----
+
+Proprio-tel: 
+
+----
+
+Mymap:
+
+lat: 46.5598481
+lon: 0.3736475
+city: Poitiers
+region: Nouvelle-Aquitaine
+country: France
+countryCode: fr
+postcode: "86000"
+address: Rue Victor Schoelcher
+osm: 210453215
+
+----
+
+Gallery:
+
+- file://h4hxry1msktkxpwc
+- file://k9hof91gpbhiyhnr
+
+----
+
+Uuid: 9agt0f91x2nguf26

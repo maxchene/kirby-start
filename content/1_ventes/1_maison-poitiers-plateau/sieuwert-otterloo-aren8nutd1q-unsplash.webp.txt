@@ -1,0 +1,13 @@
+Alt: salon
+
+----
+
+Uuid: t8xk8hasrov6wkft
+
+----
+
+Template: image
+
+----
+
+Sort: 2

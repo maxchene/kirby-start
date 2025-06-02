@@ -1,0 +1,65 @@
+title: Location
+
+buttons:
+  a4portrait:
+    text: Fiche A4
+    link: "https://mastodon.social/@getkirby"
+    target: _blank
+  a3paysage:
+    text: Fiche A3
+    target: _blank
+    link: "https://mastodon.social/@getkirby"
+  preview: true
+  settings: true
+  status: true
+
+tabs:
+  content:
+    label: Contenu
+    columns:
+      left:
+        width: 2/3
+        fields:
+          description:
+            type: textarea
+            size: huge
+      right:
+        width: 1/3
+        fields:
+          reference:
+            type: text
+            label: Référence
+          type:
+            type: select
+            options:
+              type: query
+              query: site.types.toStructure
+              text: "{{ item.name }}"
+              value: "{{ item.name }}"
+          secteur:
+            type: select
+            options:
+              type: query
+              query: site.zones.toStructure
+              text: "{{ item.name }}"
+              value: "{{ item.name }}"
+
+  photos:
+    label: Photos
+    sections:
+      gallery:
+        extends: sections/gallery
+
+  prix:
+    label: Prix
+    fields:
+      loyer:
+        type: number
+      honoraires:
+        type: number
+        label: Honoraires de location
+      depotGarantie:
+        type: number
+        label: Dépôt de garantie
+
+

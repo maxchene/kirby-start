@@ -1,1 +1,79 @@
-Title: Site Title
+Title: Bruno Paquet Immobilier
+
+----
+
+Types:
+
+- 
+  name: Appartement
+  text: Appartement
+- 
+  name: Maison
+  text: Maison
+- 
+  name: Immeuble
+  text: ""
+- 
+  name: Terrain
+  text: ""
+- 
+  name: Stationnement
+  text: ""
+- 
+  name: Ensemble immobilier
+  text: ""
+
+----
+
+Zones:
+
+- 
+  name: Poitiers Centre
+- 
+  name: Poitiers
+- 
+  name: Poitiers Nord
+- 
+  name: Poitiers Sud
+- 
+  name: Poitiers Est
+- 
+  name: Poitiers Ouest
+
+----
+
+Budgets:
+
+- 
+  start: 0
+  end: 100000
+  name: ""
+- 
+  start: 100000
+  end: 200000
+
+----
+
+Menu:
+
+- 
+  name: Biens immobiliers
+  page:
+    - page://rf5gupdoq0odcypq
+  label: Biens immobiliers
+- 
+  name: Location
+  page:
+    - page://birgddf2w3inv6om
+- 
+  name: Location saisonnière
+  page:
+    - page://lypv4hroynvtrgjb
+- 
+  name: Agence
+  page:
+    - page://6sipwvl9vr4oz58w
+- 
+  name: Contact
+  page:
+    - page://3i0tsxxrb0oesgbq

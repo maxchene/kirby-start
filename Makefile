@@ -1,4 +1,4 @@
-.PHONY: help dev stop
+.PHONY: help dev stop deploy
 user := $(shell id -u)
 group := $(shell id -g)
 dc := USER_ID=$(user) GROUP_ID=$(group) docker compose
@@ -18,6 +18,9 @@ dev: node_modules/time vendor/autoload.php ## Run dev servers : php & vite
 
 stop: ## Stop docker containers
 	$(dc) down
+
+deploy: ## balance le site en prod
+	ssh -A infomaniak 'cd sites/legrain86.fr && git pull origin main'
 
 # DEPENDENCIES
 

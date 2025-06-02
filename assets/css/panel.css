@@ -1,0 +1,13 @@
+
+.k-locator-field.filled.closed .k-locator-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.k-locator-field.filled.closed .map-container:not(.map-only) {
+  width: auto;
+}
+
+.k-locator-field .content {
+  background: var(--input-color-back);
+}

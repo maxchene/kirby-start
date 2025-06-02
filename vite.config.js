@@ -1,7 +1,6 @@
 import {defineConfig} from "vite";
 import {glob} from 'glob';
-import {relative, resolve, extname} from 'node:path';
-import {fileURLToPath} from 'node:url';
+import {resolve} from 'node:path';
 import * as path from "node:path";
 import {readdirSync, statSync, readFileSync, writeFileSync, mkdirSync} from 'fs';
 
@@ -45,7 +44,16 @@ const inputFiles = glob.sync('assets/js/*.js').reduce((entries, file) => {
   const name = path.parse(file).name
   entries[name] = path.resolve(__dirname, file)
   return entries
-}, {})
+}, {});
+
+const cssFiles = {
+  ...glob.sync('assets/js/*.js').reduce((entries, file) => {
+    const name = path.parse(file).name
+    entries[name] = path.resolve(__dirname, file)
+    return entries
+  }, {}),
+  styles: path.resolve(__dirname, 'assets/js/styles.js')
+};
 
 const IconSpritePlugin = () => {
   function generateIconSprite() {
@@ -104,7 +112,7 @@ export default defineConfig(({command}) => ({
     cssMinify: 'lightningcss',
     rollupOptions: {
       input: {
-        ...getCssEntries(resolve(__dirname, 'assets/css')),
+        ...cssFiles,
         ...inputFiles
       }
     },
@@ -122,5 +130,6 @@ function getCssEntries(cssDir) {
       entries[name] = fullPath;
     }
   }
+  console.log(entries);
   return entries;
 }

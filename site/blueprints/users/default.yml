@@ -1,0 +1,8 @@
+title: Utilisateur
+
+fields:
+  phone:
+    label: Téléphone
+    type: tel
+  linkedin:
+    type: url

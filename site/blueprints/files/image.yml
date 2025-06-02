@@ -1,0 +1,9 @@
+title: Image
+
+create:
+  format: webp
+
+fields:
+  alt:
+    label: Texte alternatif
+    type: text

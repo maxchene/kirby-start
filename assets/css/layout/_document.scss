@@ -1,0 +1,31 @@
+@use "../settings" as *;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+}
+
+::before,
+::after {
+  text-decoration: inherit;
+  vertical-align: inherit;
+}
+
+:where(:root) {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  background-color: var(--background);
+  color: black;
+  font-weight: 400;
+  font-size: 100%;
+  line-height: 1.5;
+  font-family: $body-font;
+  font-optical-sizing: auto;
+  text-underline-offset: .1rem;
+  text-rendering: optimizeLegibility;
+  overflow-wrap: break-word;
+  tab-size: 4;
+}

@@ -1,0 +1,13 @@
+Alt: Chambre parentale
+
+----
+
+Uuid: pgdq9sozvcutriqn
+
+----
+
+Template: image
+
+----
+
+Sort: 3

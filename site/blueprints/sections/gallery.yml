@@ -1,0 +1,10 @@
+help: Vous pouvez faire glisser les images pour les réordonner. La première image sera utilisée comme image de couverture.
+type: files
+label: Gallerie
+template: image
+uploads: image
+layout: cards
+batch: true
+text: "{{file.alt}}"
+image:
+  cover: true
