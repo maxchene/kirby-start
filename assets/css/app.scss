@@ -5,5 +5,16 @@
 @use "theme/theme";
 
 // Layout
-@use "layout/document"; // html
-@use "content/typo"; // html
+@use "layout/document";
+@use "layout/layout";
+// html
+@use "content/typo";
+// html
+@use "layout/grid";
+// html
+
+// COMPONNETS
+@use 'components/icon';
+
+// PAGES
+@use 'pages/vente';

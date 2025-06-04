@@ -11,7 +11,7 @@ services:
     working_dir: /app
     volumes:
       - .:/app
-    command: php -S 0.0.0.0:8000 kirby/router.php
+    command: php -d memory_limit=512M -S 0.0.0.0:8000 kirby/router.php
   
   bun:
     user: "${USER_ID}:${GROUP_ID}"
@@ -22,11 +22,3 @@ services:
       - .:/app
     ports:
       - 3000:3000
-  
-  composer:
-    user: "${USER_ID}:${GROUP_ID}"
-    image: composer:lts
-    working_dir: /app
-    volumes:
-      - .:/app
-    command: install --ignore-platform-reqs

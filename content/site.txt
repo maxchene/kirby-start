@@ -57,18 +57,22 @@ Budgets:
 Menu:
 
 - 
-  name: Biens immobiliers
+  name: Ventes
   page:
     - page://rf5gupdoq0odcypq
   label: Biens immobiliers
 - 
-  name: Location
+  name: Locations
   page:
     - page://birgddf2w3inv6om
 - 
-  name: Location saisonnière
+  name: Locations saisonnières
   page:
     - page://lypv4hroynvtrgjb
+- 
+  name: Programmes neufs
+  page:
+    - page://birgddf2w3inv6om
 - 
   name: Agence
   page:

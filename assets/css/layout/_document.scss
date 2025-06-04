@@ -22,7 +22,7 @@
   font-weight: 400;
   font-size: 100%;
   line-height: 1.5;
-  font-family: $body-font;
+  font-family: var(--body-font);
   font-optical-sizing: auto;
   text-underline-offset: .1rem;
   text-rendering: optimizeLegibility;

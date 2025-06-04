@@ -36,7 +36,7 @@ tabs:
             label: Référence
           agent:
             type: users
-            label: Agent
+            label: Contact
             max: 1
             image:
               cover: true

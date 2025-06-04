@@ -2,7 +2,9 @@ title: Image
 
 create:
   format: webp
-
+image:
+  cover: true
+  strip: true
 fields:
   alt:
     label: Texte alternatif

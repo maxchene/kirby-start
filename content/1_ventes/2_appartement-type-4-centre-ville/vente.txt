@@ -1,0 +1,69 @@
+Title: Appartement type 4 centre ville
+
+----
+
+Description:
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque purus massa, egestas nec dui sed, mattis mollis justo. Morbi imperdiet sit amet eros sed scelerisque. Nullam pellentesque mauris aliquam, varius urna non, interdum orci. Nulla blandit massa diam, non convallis ipsum aliquet nec. Phasellus ornare vel augue eget iaculis. Nunc rutrum sollicitudin neque, eget tristique dui maximus at. Quisque commodo ligula sed nibh vehicula, id posuere nibh sagittis.
+
+Sed aliquam dolor et semper sagittis. Mauris odio felis, tempor at sem eu, placerat posuere sapien. Donec eu neque maximus, bibendum arcu et, imperdiet orci. Duis magna ante, commodo in luctus ac, consectetur ut sem. In sagittis velit non enim ultricies, sit amet posuere metus gravida. Sed pellentesque metus in libero sagittis, a mattis urna faucibus. Pellentesque at egestas augue, et sollicitudin tellus. Sed sed feugiat enim. Aliquam tempor nunc ex, non aliquam tortor commodo id.
+
+Ut tristique dictum nulla sed commodo. Duis eros augue, ornare eu eros a, vulputate vehicula tellus. Aenean viverra, quam et venenatis rutrum, velit risus rhoncus dui, non tempus massa ligula vel est. Etiam blandit, est eget volutpat sodales, turpis ex ultrices quam, a pellentesque magna ipsum ac dui. Cras ut accumsan lectus. Etiam dictum sagittis luctus. Vestibulum venenatis, leo vel efficitur lobortis, metus arcu porta mauris, vitae tempor diam leo quis augue. Aenean sodales justo ac augue vestibulum congue. Donec posuere purus finibus turpis pellentesque iaculis. Nullam fringilla dolor massa, at auctor tellus hendrerit tincidunt. Aenean ultrices, augue vel vestibulum pellentesque, ipsum justo blandit velit, vitae ornare lacus est vel ligula.
+
+Pellentesque lacinia vestibulum porttitor. Donec viverra porttitor odio, in aliquam sem mollis id. Integer faucibus risus ac odio porta, eget tempus ipsum sollicitudin. Duis feugiat nisi erat, laoreet vulputate lectus pellentesque id. Donec quam felis, facilisis in posuere et, luctus sed tellus. Fusce sed mi consequat, egestas metus vel, pellentesque dui. Pellentesque ac vulputate dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla eget mollis massa, et fermentum dui. Integer imperdiet sit amet dolor id tincidunt. Phasellus maximus, urna vel laoreet lacinia, nisi turpis fermentum libero, nec varius magna erat eget orci. Donec hendrerit diam sed augue venenatis, vel porttitor quam accumsan. Aliquam viverra, mauris vel ultrices placerat, elit leo rhoncus massa, eu malesuada ligula eros luctus metus.
+
+----
+
+Reference: TRF456754
+
+----
+
+Agent: - user://mc9EXlPG
+
+----
+
+Type: Appartement
+
+----
+
+Secteur: Poitiers Nord
+
+----
+
+Exclu: true
+
+----
+
+Vitrine: false
+
+----
+
+Offmarket: false
+
+----
+
+Showpreciseposition: false
+
+----
+
+Position: 
+
+----
+
+Notes: 
+
+----
+
+Proprio: 
+
+----
+
+Proprio-adresse: 
+
+----
+
+Proprio-tel: 
+
+----
+
+Uuid: 338jjf3myidqhdx5

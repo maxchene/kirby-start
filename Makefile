@@ -14,7 +14,7 @@ help: ## Affiche cette aide
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'
 
 dev: node_modules/time vendor/autoload.php ## Run dev servers : php & vite
-	$(dc) up
+	$(dc) up --remove-orphans
 
 stop: ## Stop docker containers
 	$(dc) down
@@ -24,19 +24,16 @@ deploy: ## balance le site en prod
 
 # DEPENDENCIES
 
-composer.lock:
-	$(composer) composer install --ignore-platform-reqs
-	$(stop) composer
+composer.lock: composer.json
+	$(php) composer update --ignore-platform-reqs
 
 vendor/autoload.php: composer.lock
-	$(composer) composer install --ignore-platform-reqs
+	$(php) composer install --ignore-platform-reqs
 	touch vendor/autoload.php
-	$(stop) composer
 
 node_modules/time: bun.lockb
 	$(bun) bun install
 	touch node_modules/time
-	docker compose
 
 bun.lockb:
 	$(bun) bun install
