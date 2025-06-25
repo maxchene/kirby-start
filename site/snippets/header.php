@@ -19,7 +19,7 @@
 </head>
 <body>
 <aside>
-  <a href="<?= $site->url(); ?>">
+  <a href="<?= $site->url(); ?>" aria-label="Bruno Paquet Immobilier">
     <?= snippet('logo'); ?>
   </a>
   <nav>
